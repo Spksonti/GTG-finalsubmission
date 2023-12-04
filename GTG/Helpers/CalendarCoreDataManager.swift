@@ -41,4 +41,42 @@ class CalendarCoreDataManager {
             return []
         }
     }
+    
+    func saveDarkModeState(isEnabled: Bool) {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+
+        do {
+            // Fetch existing DarkMode entity or create a new one if it doesn't exist
+            let fetchRequest: NSFetchRequest<DarkMode> = DarkMode.fetchRequest()
+            let darkModeEntities = try context.fetch(fetchRequest)
+            let darkModeEntity = darkModeEntities.first ?? DarkMode(context: context)
+
+            // Update the DarkMode entity with the new state
+            darkModeEntity.darkMode = isEnabled
+
+            // Save the changes
+            try context.save()
+        } catch {
+            print("Error saving DarkMode state: \(error)")
+        }
+    }
+    
+    func fetchDarkModeState() -> Bool {
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let fetchRequest: NSFetchRequest<DarkMode> = DarkMode.fetchRequest()
+
+        do {
+            let darkModeEntities = try context.fetch(fetchRequest)
+            if let darkModeEntity = darkModeEntities.first {
+                return darkModeEntity.darkMode
+            } else {
+                // Default value when there's no DarkMode entity
+                return false
+            }
+        } catch {
+            print("Error fetching DarkMode state: \(error)")
+            // Default value in case of an error
+            return false
+        }
+    }
 }

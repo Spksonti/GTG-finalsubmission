@@ -5,4 +5,7 @@
         <attribute name="didWorkout" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
         <attribute name="typeOfWorkout" optional="YES" attributeType="String"/>
     </entity>
+    <entity name="DarkMode" representedClassName=".DarkMode" syncable="YES">
+        <attribute name="darkMode" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+    </entity>
 </model>

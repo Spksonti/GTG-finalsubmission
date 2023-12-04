@@ -12,10 +12,13 @@ class SettingsViewController: UIViewController {
 
     @IBOutlet weak var updateProfile: UIButton!
     @IBOutlet weak var updateQuestionnaire: UIButton!
+    @IBOutlet weak var darkModeSwitch: UISwitch!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        let fetchedData = CalendarCoreDataManager.shared.fetchDarkModeState()
+        darkModeSwitch.isOn = fetchedData
         updateElements()
     }
     
@@ -27,6 +30,7 @@ class SettingsViewController: UIViewController {
     }
     
     @IBAction func onClickSwitch(_ sender: Any){
+        CalendarCoreDataManager.shared.saveDarkModeState(isEnabled: darkModeSwitch.isOn)
         if #available(iOS 13.0, *) {
             if let windowScene = UIApplication.shared.connectedScenes.first as? UIWindowScene {
                 let appDelegate = windowScene.windows.first

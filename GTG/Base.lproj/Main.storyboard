@@ -1098,6 +1098,7 @@
                     </view>
                     <navigationItem key="navigationItem" id="ocO-04-woy"/>
                     <connections>
+                        <outlet property="darkModeSwitch" destination="LTO-a6-KUV" id="L8A-64-oP9"/>
                         <outlet property="updateProfile" destination="oUT-2l-hYk" id="HLn-g3-D6L"/>
                         <outlet property="updateQuestionnaire" destination="t0d-Zx-Kzq" id="aiw-g2-Lpn"/>
                         <segue destination="BYZ-38-t0r" kind="show" identifier="SignOutSegue" id="A6w-2O-0zO"/>

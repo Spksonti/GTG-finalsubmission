@@ -19,6 +19,8 @@
 		40040D322B1E927D00A1EA0E /* DailyEntry+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40040D302B1E927D00A1EA0E /* DailyEntry+CoreDataClass.swift */; };
 		40040D332B1E927D00A1EA0E /* DailyEntry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40040D312B1E927D00A1EA0E /* DailyEntry+CoreDataProperties.swift */; };
 		40040D352B1E92CA00A1EA0E /* CalendarCoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40040D342B1E92CA00A1EA0E /* CalendarCoreDataManager.swift */; };
+		40040D382B1E99AD00A1EA0E /* DarkMode+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40040D362B1E99AD00A1EA0E /* DarkMode+CoreDataClass.swift */; };
+		40040D392B1E99AD00A1EA0E /* DarkMode+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40040D372B1E99AD00A1EA0E /* DarkMode+CoreDataProperties.swift */; };
 		4033537A2ADEE36800979B95 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403353792ADEE36800979B95 /* CalendarViewController.swift */; };
 		407F745A2B05CAAD0056B56B /* FitnessConceptsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 407F74592B05CAAD0056B56B /* FitnessConceptsViewController.swift */; };
 		4081D73D2AFB129400394CD6 /* CalendarContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4081D73C2AFB129400394CD6 /* CalendarContainerViewController.swift */; };
@@ -88,6 +90,8 @@
 		40040D302B1E927D00A1EA0E /* DailyEntry+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyEntry+CoreDataClass.swift"; sourceTree = "<group>"; };
 		40040D312B1E927D00A1EA0E /* DailyEntry+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DailyEntry+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		40040D342B1E92CA00A1EA0E /* CalendarCoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCoreDataManager.swift; sourceTree = "<group>"; };
+		40040D362B1E99AD00A1EA0E /* DarkMode+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DarkMode+CoreDataClass.swift"; sourceTree = "<group>"; };
+		40040D372B1E99AD00A1EA0E /* DarkMode+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DarkMode+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		403353792ADEE36800979B95 /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		407F74592B05CAAD0056B56B /* FitnessConceptsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitnessConceptsViewController.swift; sourceTree = "<group>"; };
 		4081D73C2AFB129400394CD6 /* CalendarContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarContainerViewController.swift; sourceTree = "<group>"; };
@@ -155,6 +159,8 @@
 		18A9CB1D2AC33DAF00D5D14E = {
 			isa = PBXGroup;
 			children = (
+				40040D362B1E99AD00A1EA0E /* DarkMode+CoreDataClass.swift */,
+				40040D372B1E99AD00A1EA0E /* DarkMode+CoreDataProperties.swift */,
 				40040D302B1E927D00A1EA0E /* DailyEntry+CoreDataClass.swift */,
 				40040D312B1E927D00A1EA0E /* DailyEntry+CoreDataProperties.swift */,
 				18A9CB282AC33DAF00D5D14E /* GTG */,
@@ -335,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				40040D382B1E99AD00A1EA0E /* DarkMode+CoreDataClass.swift in Sources */,
 				4081D7412AFB147100394CD6 /* UpdateProfileViewController.swift in Sources */,
 				40040D352B1E92CA00A1EA0E /* CalendarCoreDataManager.swift in Sources */,
 				E3F4CEAC2AF867470074AD97 /* HomeNextWorkoutViewController.swift in Sources */,
@@ -342,6 +349,7 @@
 				4033537A2ADEE36800979B95 /* CalendarViewController.swift in Sources */,
 				40040D322B1E927D00A1EA0E /* DailyEntry+CoreDataClass.swift in Sources */,
 				AC720EC42AD61B170059EA6D /* CreateAccountViewController.swift in Sources */,
+				40040D392B1E99AD00A1EA0E /* DarkMode+CoreDataProperties.swift in Sources */,
 				4081D7432AFB148D00394CD6 /* ChangePassViewController.swift in Sources */,
 				18A9CB2E2AC33DAF00D5D14E /* ViewController.swift in Sources */,
 				18EF1C092AF150F600C1A343 /* GoalsSummaryVC.swift in Sources */,
