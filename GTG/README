@@ -1,0 +1,41 @@
+Akif Abidi (25%)
+- Designed and made the home screen, implemented models into home screen
+- Researched UIKit - how we can use Vstack and more
+- UI fixes when need be
+
+- Continued working on the main screen. Created custom views for the three components on the main screen with container view controllers with logic to update and display
+- Connected and implemented data and functions from the calendar and goal side to the Home Screen. Communicated with team to connect data and functions between all screens to the home screen
+- Helped with refining user experience and UI
+
+Shriman Sonti (25%)
+- Created initial screen, login screen, create account screen
+Set up google fire base and initialized it in project
+
+- Pushed and created goals section of firebase
+- Assisted and fixed bugs and issues dealing with google firebase integrations
+
+Raj Shvetan (25%)
+- Worked on the calendar screen. This screen is used for monitoring user progress in gym attendance and workouts being done.
+- Learned how UICalendarView works, and implemented it into the screen once user navigates to the calendar screen.
+- Made the dates and labels dynamic based on user date selection.
+- worked on saving user data into Firebase for gym attendance. (not completely completed)
+
+- Improved Calendar View to use for multiple screens
+- Modified circle colors based on workout completion type
+- Created Settings Screen containing options for profile updates, dark mode, and password changes
+- Implemented dark mode for user flexibility
+- Developed profile screen for user to change first name, last name
+- Made change password screen to change password
+- Worked on UI for all these screens to improve user experience
+
+Nikhil Meka (25%)
+    ⁃    Got most of the questionnaire screen functionality and UI implemented
+    ⁃    Created a Goal class to store goals that will be displayed on the home screen
+
+- Improved questionnaire screen and added a bit more functionality to get more information to present on the home screen
+- Changed goal class to not update firebase directly at all times
+- Created GoalSummary screen to show selected data from questionnaire screen
+
+Deviations:
+- implemented changes that we had decided on post our grading for the grading document, the Professor made great
+point on some thing we should change and simplify.
