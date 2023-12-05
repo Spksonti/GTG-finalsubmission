@@ -14,7 +14,7 @@ var freeTimes: [String: [String]] = [:]
 
 // create goal which will ultimately be filled when continue button clicked
 // created out of class to be global
-var goal = Goal(fitnessGoal: "Feel healthier", gainLossVal: 0, currWeight: 0.0, freeTimes: freeTimes)
+var goal = Goal(fitnessGoal: "Feel healthy", gainLossVal: 0, currWeight: 0.0, freeTimes: freeTimes)
 
 
 class QuestionnaireViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
